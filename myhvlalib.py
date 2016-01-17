@@ -61,7 +61,7 @@ class myHvlA():
                 queryString = queryString + '&' + '='.join([key, urllib.parse.quote_plus(params[key])])
             else:
                 queryString = '='.join([key, urllib.parse.quote_plus(params[key])])
-            req_url=self.url + self.__apiPath + 'browse?' + queryString
+        req_url=self.url + self.__apiPath + 'browse?' + queryString
 
         with urllib.request.urlopen(req_url, timeout=90) as res:
             j = json.loads(res.read().decode('utf-8'))
