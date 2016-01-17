@@ -12,3 +12,6 @@ This tool consists of module and scripts for specific purpose. For details, plea
 
 ## License
 These tools are released under the MIT License. Please see LICENSE.txt.
+
+## Reference
+- /lib/contents.js on HVL-A2.0
